@@ -14,12 +14,14 @@ export class CreateUserComponent implements OnInit {
   ngOnInit() {
     this.userForm = new FormGroup({
       fullName: new FormControl(),
-      email: new FormControl()
+      email: new FormControl(),
+      password: new FormControl(),
+      confirmPassword: new FormControl()
     });
   }
 
-  onSubmit() : void{
-console.log(this.userForm.value);
+  onSubmit(): void {
+    console.log(this.userForm.value);
   }
 
 }
