@@ -7,7 +7,7 @@ import { FormGroup, FormControl } from '@angular/forms';
   styleUrls: ['./app.component.scss']
 })
 export class AppComponent implements OnInit {
-  title = 'MyAngular6App';
+  title = 'KMart';
   searchForm: FormGroup;
 
   ngOnInit() {

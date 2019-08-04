@@ -4,16 +4,12 @@ import { ReactiveFormsModule } from "@angular/forms";
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
-import { CreateEmployeeComponent } from './employee/create-employee.component';
-import { ListEmployeeComponent } from './employee/list-employee.component';
 import { CreateUserComponent } from './user/create-user.component';
 import { ListUserComponent } from './user/list-user.component';
 
 @NgModule({
   declarations: [
     AppComponent,
-    CreateEmployeeComponent,
-    ListEmployeeComponent,
     CreateUserComponent,
     ListUserComponent
   ],
