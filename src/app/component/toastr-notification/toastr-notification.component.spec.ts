@@ -1,21 +1,20 @@
 import { async, ComponentFixture, TestBed } from '@angular/core/testing';
-import { FormGroup, FormControl } from '@angular/forms';
 
-import { CreateUserComponent } from './create-user.component';
+import { ToastrNotificationComponent } from './toastr-notification.component';
 
-describe('CreateUserComponent', () => {
-  let component: CreateUserComponent;
-  let fixture: ComponentFixture<CreateUserComponent>;
+describe('ToastrNotificationComponent', () => {
+  let component: ToastrNotificationComponent;
+  let fixture: ComponentFixture<ToastrNotificationComponent>;
 
   beforeEach(async(() => {
     TestBed.configureTestingModule({
-      declarations: [ CreateUserComponent ]
+      declarations: [ ToastrNotificationComponent ]
     })
     .compileComponents();
   }));
 
   beforeEach(() => {
-    fixture = TestBed.createComponent(CreateUserComponent);
+    fixture = TestBed.createComponent(ToastrNotificationComponent);
     component = fixture.componentInstance;
     fixture.detectChanges();
   });
