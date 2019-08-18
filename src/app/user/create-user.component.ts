@@ -25,7 +25,6 @@ export class CreateUserComponent implements OnInit {
 
   onSubmit(): void {
     this.notificationService.success(JSON.stringify(this.userForm.value));
-    console.log(this.userForm.value);
   }
 
 }
